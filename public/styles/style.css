@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/spotify-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: #ffffff70;
+    width: 70%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    background-color: rgb(255, 75, 75);
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+.btn-bottom{
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.input{
+    border: none;
+    width: 70%;
+    padding: 5px 10px;
+}
+
+.card{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.card > img{
+    width: 100%;
+}
+
+.card > h2{
+    font-size: 1rem;
+}
+
+.cards-container {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+th{
+    background-color: rgb(95, 95, 95);
+    height: 60px;
+    color: white;
+}
+
+tr{
+    background-color: rgb(218, 218, 218);
+}
+
+.name-cell{
+    text-align: center;
+}
+
+.audio-cell{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+} 

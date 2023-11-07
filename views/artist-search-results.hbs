@@ -1,0 +1,9 @@
+<div class="cards-container">
+    {{#each arrayOfArtists}}
+    <div class="card">
+        <img class="image" src="{{this.images.1.url}}" alt="{{this.name}}">
+        <h2>{{this.name}}</h2>
+        <a class="btn-bottom" href="/albums/{{this.id}}"><button class="btn">Albums</button></a>
+    </div>
+    {{/each}}
+</div>

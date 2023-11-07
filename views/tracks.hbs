@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Listen</th>
+    </tr>
+
+    {{#each arrayOfTracks}}
+    <tr>
+        <td class="name-cell">{{this.name}}</td>
+        {{#if this.preview_url}}
+        <td class="audio-cell">
+            <audio controls src="{{this.preview_url}}"></audio>
+        </td>
+        {{else}}
+        <td class="audio-cell">
+            <p>Preview not available</p>
+        </td>
+        {{/if}}
+    </tr>
+    {{/each}}
+</table>
